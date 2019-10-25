@@ -1,0 +1,92 @@
+body {
+  font: normal 12px arial, verdana, tahoma;
+}
+
+.wrapper {
+  background-color: #eee;
+  padding: 20px;
+  width: 80%;
+}
+
+.common_table {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.common_table tr th {
+  text-align: left;
+  background-color: #ccc;
+  padding: 5px 0;
+}
+
+.common_table tr {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.common_table td {
+  padding: 5px 0;
+}
+
+.no_entries_row {
+  text-align: center;
+}
+
+.popup {
+  text-align: center;
+}
+
+.popup p {
+  background-color: LightGreen;
+  padding: 10px 30px;
+  width: 150px;
+  height: 30px;
+  line-height: 30px;
+  margin: 15px auto;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.action_btn {
+  text-align: center;
+  color: #fff;
+  border-radius: 3px;
+}
+
+input.action_btn {
+  margin: 2px;
+  border: none;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+input.submit {
+  background-color: #000;
+}
+
+input.cancel {
+  background-color: #ccc;
+}
+
+.list_add {
+  color: RoyalBlue;
+  padding-left: 20px;
+  background: url("../images/add_icon.png") no-repeat;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  background-position: left;
+}
+
+.list_cancel {
+  background: url("../images/remove_icon.png") no-repeat;
+  display: block;
+  color: transparent;
+  width: 100%;
+  height: auto;
+}
